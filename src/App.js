@@ -16,7 +16,7 @@ export class App extends Component {
     items: [
       {
         id: 1,
-        img: "../shopItems/tricko.jpeg",
+        img: "https://images.pexels.com/photos/428340/pexels-photo-428340.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
         name: "Tricko Biele POWER",
         gender: "muz",
         cena: 15,
@@ -25,7 +25,7 @@ export class App extends Component {
       },
       {
         id: 2,
-        img: "../shopItems/siltovka.jpeg",
+        img: "https://images.pexels.com/photos/1124465/pexels-photo-1124465.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
         name: "Siltovka",
         gender: "muz",
         cena: 10,
@@ -34,7 +34,7 @@ export class App extends Component {
       },
       {
         id: 3,
-        img: "../shopItems/nohavice.jpeg",
+        img: "https://images.pexels.com/photos/1598507/pexels-photo-1598507.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
         name: "Nohavice",
         gender: "muz",
         cena: 25,
@@ -43,7 +43,7 @@ export class App extends Component {
       },
       {
         id: 4,
-        img: "../shopItems/tricko.jpeg",
+        img: "https://images.pexels.com/photos/937453/pexels-photo-937453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
         name: "Tricko Biele POWER",
         gender: "zena",
         cena: 15,
@@ -52,8 +52,8 @@ export class App extends Component {
       },
       {
         id: 5,
-        img: "../shopItems/siltovka.jpeg",
-        name: "Siltovka",
+        img: "https://images.pexels.com/photos/844867/pexels-photo-844867.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        name: "Siltovka LA",
         gender: "zena",
         cena: 10,
         dostupne: 5,
@@ -61,7 +61,7 @@ export class App extends Component {
       },
       {
         id: 6,
-        img: "../shopItems/nohavice.jpeg",
+        img: "https://images.pexels.com/photos/792762/pexels-photo-792762.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
         name: "Nohavice",
         gender: "zena",
         cena: 25,
@@ -70,8 +70,8 @@ export class App extends Component {
       },
       {
         id: 7,
-        img: "../shopItems/tricko.jpeg",
-        name: "Tricko Biele POWER",
+        img: "https://images.pexels.com/photos/428338/pexels-photo-428338.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        name: "Tricko Sede POWER",
         gender: 'zena',
         cena: 15,
         dostupne: 5,
@@ -79,7 +79,7 @@ export class App extends Component {
       },
       {
         id: 8,
-        img: "../shopItems/siltovka.jpeg",
+        img: "https://images.pexels.com/photos/1878821/pexels-photo-1878821.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
         name: "Siltovka",
         gender: 'zena',
         cena: 10,
@@ -88,7 +88,7 @@ export class App extends Component {
       },
       {
         id: 9,
-        img: "../shopItems/nohavice.jpeg",
+        img: "https://images.pexels.com/photos/1082529/pexels-photo-1082529.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
         name: "Nohavice",
         gender: 'zena',
         cena: 25,
@@ -97,8 +97,8 @@ export class App extends Component {
       },
       {
         id: 10,
-        img: "../shopItems/tricko.jpeg",
-        name: "Tricko Biele POWER",
+        img: "https://images.pexels.com/photos/702350/pexels-photo-702350.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        name: "MIKINA",
         gender: 'muz',
         cena: 15,
         dostupne: 5,
@@ -106,8 +106,8 @@ export class App extends Component {
       },
       {
         id: 11,
-        img: "../shopItems/siltovka.jpeg",
-        name: "Siltovka",
+        img: "https://images.pexels.com/photos/954254/pexels-photo-954254.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        name: "Siltovka MHC",
         gender: 'muz',
         cena: 10,
         dostupne: 5,
@@ -115,8 +115,8 @@ export class App extends Component {
       },
       {
         id: 12,
-        img: "../shopItems/nohavice.jpeg",
-        name: "Nohavice",
+        img: "https://images.pexels.com/photos/1240892/pexels-photo-1240892.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        name: "Tenisky",
         gender: 'muz',
         cena: 25,
         dostupne: 5,
@@ -124,8 +124,8 @@ export class App extends Component {
       },
       {
         id: 13,
-        img: "../shopItems/tricko.jpeg",
-        name: "Tricko Biele POWER",
+        img: "https://images.pexels.com/photos/278303/pexels-photo-278303.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        name: "MIKINA",
         gender: 'zena',
         cena: 25,
         dostupne: 5,
@@ -133,8 +133,8 @@ export class App extends Component {
       },
       {
         id: 14,
-        img: "../shopItems/siltovka.jpeg",
-        name: "Siltovka",
+        img: "https://images.pexels.com/photos/1078975/pexels-photo-1078975.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        name: "Klobúk",
         gender: 'zena',
         cena: 25,
         dostupne: 5,
@@ -142,7 +142,7 @@ export class App extends Component {
       },
       {
         id: 15,
-        img: "../shopItems/nohavice.jpeg",
+        img: "https://images.pexels.com/photos/65676/nanjing-studio-jeans-65676.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
         name: "Nohavice",
         gender: 'muz',
         cena: 25,
@@ -151,7 +151,7 @@ export class App extends Component {
       },
       {
         id: 16,
-        img: "../shopItems/tricko.jpeg",
+        img: "https://images.pexels.com/photos/2816479/pexels-photo-2816479.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
         name: "Tricko Biele POWER",
         gender: 'zena',
         cena: 25,
@@ -160,8 +160,8 @@ export class App extends Component {
       },
       {
         id: 17,
-        img: "../shopItems/siltovka.jpeg",
-        name: "Siltovka",
+        img: "https://images.pexels.com/photos/720606/pexels-photo-720606.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        name: "Košeľa",
         gender: 'zena',
         cena: 25,
         dostupne: 5,
