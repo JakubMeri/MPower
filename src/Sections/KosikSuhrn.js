@@ -1,14 +1,17 @@
 import React from 'react'
 import './SectionStyle.css'
+import ShopItem from '../shoppingList/Shop/ShopItem'
 
 export default function KosikSuhrn(props) {
     return (
         <div className="kosik-suhrn" onClick={props.hide}>
-            <ul>
+            <h1>Vybrané položky na zakúpenie:</h1>
+            <ul className="buy-container">
                 {props.items.map( (item, index) => {
-                    return <li key={index}><img src={item.img}/> <p onClick={(e) => {props.moduleData(); props.getId(item.id); props.hide();}}>{item.name}</p> <button className="remove-btn" id={item.id} onClick={props.deleteItem}><i id={item.id} className="fas fa-times"></i></button></li>
+                    return <ShopItem deleteItem={props.deleteItem} key={index} item={item}></ShopItem>
                 })}
             </ul>
+            <button className="zakupit">Zakúpiť</button>
         </div>
     )
 }

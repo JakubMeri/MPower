@@ -1,0 +1,58 @@
+.buy-item{
+    width: 90%;
+    list-style: none;
+    height: auto;
+    border: solid 2px rgb(0, 193, 241);
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+    background: #333;
+    transition: .3s;
+}
+.buy-item:hover{
+background: rgb(0, 193, 241);
+box-shadow: inset 0px 0px 10px #333;
+width: 91%;
+}
+.buy-item img{
+    height: auto;
+    width: 80px;
+    margin: 0px 20px;
+    border: solid 2px rgb(0, 193, 241);
+}
+.buy-item p {
+    font-family: "Anton", sans-serif;
+    font-size: 20px;
+    color: white;
+}
+.remove-btn-buy{
+    position: absolute;
+    right: 20px;
+    border: none;
+    font-size: 25px;
+    background: transparent;
+    cursor: pointer;
+    color: white;
+    outline: none;
+}
+.remove-btn-buy:hover{
+    color: #333;
+}
+.zakupit{
+    position: absolute;
+    right: 5%;
+    bottom: 50px;
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    text-transform: uppercase;
+    background: rgb(0, 193, 241);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+.zakupit:hover{
+    box-shadow: inset 0px 0px 5px #333;
+}
