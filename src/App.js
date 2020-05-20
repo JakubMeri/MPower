@@ -302,7 +302,7 @@ deteteItemHandler = (e) => {
             moduleData={this.showModule}
             getId={this.getId} />
             <Switch>
-              <Route exact path="/">
+              <Route exact path="/MPower">
                 <Domov hide={this.hide} />
               </Route>
               <Route path="/Muzi">

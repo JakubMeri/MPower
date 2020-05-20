@@ -13,7 +13,7 @@ export default function Navigation(props) {
                 <SocialIcons />
                 <nav>
                     <button className="kosik" onClick={props.show}><i className="fas fa-shopping-cart"></i> <span className="pocet-predmetov">{props.pocetPredmetov}</span></button>
-                        <Link onClick={props.hideModule} className="nav-link" to="/" >Hlavná stránka</Link>
+                        <Link onClick={props.hideModule} className="nav-link" to="/MPower" >Hlavná stránka</Link>
                         <Link onClick={props.hideModule} className="nav-link" to="/Muzi" >Muži</Link>
                         <Link onClick={props.hideModule} className="nav-link" to="/Zeny" >Ženy</Link>
                         <Link onClick={props.hideModule} className="nav-link" to="/Doplnky" >Doplnky</Link>
