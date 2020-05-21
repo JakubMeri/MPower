@@ -15,10 +15,10 @@ export default function Navigation(props) {
     }
 
     const mobileMenu = <div className="mobile-menu">
-    <Link onClick={props.hideModule} className="nav-link-mobile" to="/MPower" >Hlavná stránka</Link>
-    <Link onClick={props.hideModule} className="nav-link-mobile" to="/Muzi" >Muži</Link>
-    <Link onClick={props.hideModule} className="nav-link-mobile" to="/Zeny" >Ženy</Link>
-    <Link onClick={props.hideModule} className="nav-link-mobile" to="/Doplnky" >Doplnky</Link>
+    <Link onClick={() => {props.hideModule(); showMenu();}} className="nav-link-mobile" to="/MPower" >Hlavná stránka</Link>
+    <Link onClick={() => {props.hideModule(); showMenu();}} className="nav-link-mobile" to="/Muzi" >Muži</Link>
+    <Link onClick={() => {props.hideModule(); showMenu();}} className="nav-link-mobile" to="/Zeny" >Ženy</Link>
+    <Link onClick={() => {props.hideModule(); showMenu();}} className="nav-link-mobile" to="/Doplnky" >Doplnky</Link>
     </div>;
     return (
         <React.Fragment>

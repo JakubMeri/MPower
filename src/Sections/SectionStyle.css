@@ -118,7 +118,11 @@ height: 100vh;
 .obrazok img:hover{
     transform: rotateY(180deg);
 }
-.obrazok button{
+.btn-load-module{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
     margin-bottom: 20px;
     width: 150px;
     height: 30px;
@@ -132,7 +136,7 @@ height: 100vh;
     color: white;
     background: #333333;
 }
-.obrazok button:hover{
+.btn-load-module:hover{
     background: black;
     border: 2px solid black;
 }
@@ -194,6 +198,19 @@ height: 100vh;
     text-shadow: 3px 3px 3px black;
     letter-spacing: 1px;
 }
+.ziadneData{
+    position: "absolute";
+    top: 40%;
+    left: 50%;
+    background: #333;
+    color: white;
+    transform: translate(-50%, -50%);
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    padding: 10px;
+    text-shadow: 1px 1px 1px black;
+    letter-spacing: 1px;
+}
 @media screen and (max-width: 500px){
     .container{
         padding: 0;
@@ -208,4 +225,34 @@ height: 100vh;
         text-align: center;
         margin: 0;
     }
+    .ziadneData{
+        position: relative;
+    }
+
+    /* Nakupny kosik */
+    .buy-container{
+        height: 80vh;
+    }
+    .kosik-suhrn{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        width: calc(100vw - 5px);
+    }
+    .kosik-suhrn h1{
+        font-size: 22px;
+        top: 10px;
+        left: 0;
+        width: 99%;
+        text-align: center;
+    }
+    .cennik{
+        height: auto;
+        padding-bottom: 20px;
+    }
+   .cennik-tabulka{
+       margin: 0;
+   }
 }

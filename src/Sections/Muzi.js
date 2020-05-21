@@ -5,19 +5,7 @@ import Pagination from '../pagination/Pagination.js'
 
 
 export default function Muzi(props) {
-    const ziadneData = {
-        position: "absolute",
-        top: "40%",
-        left: "50%",
-        background: "#333333",
-        color: "white",
-        transform: "translate(-50%, -50%)",
-        fontFamily: "'Anton', sans-serif",
-        textAlign: "center",
-        padding: "10px",
-        textShadow: "1px 1px 1px black",
-        letterSpacing: "1px"
-    }
+
 
     let awailable = "obrazok";
     let unawailable = "obrazok vypredane";
@@ -51,7 +39,7 @@ export default function Muzi(props) {
         let lowprice = [...props.info];
         lowprice.sort( (a, b) => a.cena - b.cena)
         if(lowprice[0].cena > props.priceFilterValue){
-            return <h1 style={ziadneData}>V danej cenovej hladine sme nenašli žiaden produkt.</h1>
+            return <h1 className="ziadneData">V danej cenovej hladine sme nenašli žiaden produkt.</h1>
         }  
     }
 

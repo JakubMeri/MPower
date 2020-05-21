@@ -1,5 +1,6 @@
 import React from 'react'
 import "./module.css"
+import { Link } from 'react-router-dom'
 
 export default function Module(props) {
 
@@ -31,10 +32,10 @@ export default function Module(props) {
     return (
         <div className="module-container" onClick={props.hide}>
             {loadData}
-            <button className="hide-module-btn" onClick={props.hideModule}>
+            <Link to="/MPower" className="hide-module-btn" onClick={props.hideModule}>
                 <span></span><span></span><span></span><span></span>
                 <i className="fas fa-times"></i>
-            </button>
+            </Link>
         </div>
     )
 }

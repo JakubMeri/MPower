@@ -64,3 +64,38 @@ width: 91%;
     box-shadow: inset 0px 0px 5px #333;
     border: solid 2px #333;
 }
+@media screen and (max-width: 500px){
+    .buy-item{
+        width: 95%;
+    }
+    .buy-item img{
+        height: auto;
+        width: 60px;
+        margin: 0px 10px;
+        border: solid 1px rgb(0, 193, 241);
+    }
+    .buy-item p {
+        font-family: "Anton", sans-serif;
+        font-size: 14px;
+        color: white;
+        text-shadow: 1px 1px 1px black;
+    }
+    .cena-produktu{
+        font-family: "Anton", sans-serif;
+        font-size: 14px;
+        color: white;
+        position: absolute;
+        right: 50px;
+        text-shadow: 1px 1px 1px black;
+    }
+    .remove-btn-buy{
+        position: absolute;
+        right: 10px;
+        border: none;
+        font-size: 20px;
+        background: transparent;
+        cursor: pointer;
+        color: white;
+        outline: none;
+    }
+}

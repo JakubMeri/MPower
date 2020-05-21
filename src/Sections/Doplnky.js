@@ -25,7 +25,7 @@ export default function Doplnky(props) {
         let lowprice = [...props.info];
         lowprice.sort( (a, b) => a.cena - b.cena)
         if(lowprice[0].cena > props.priceFilterValue){
-            return <h1 style={ziadneData}>V danej cenovej hladine sme nenašli žiaden produkt.</h1>
+            return <h1 className="ziadneData">V danej cenovej hladine sme nenašli žiaden produkt.</h1>
         }  
     }
 

@@ -293,13 +293,6 @@ deteteItemHandler = (e) => {
   render() {
     return (
       <div className="App" onClick={this.sortData}>
-        {this.state.module ? <Module
-         hide={this.hide}
-         buyItemHandler={this.buyItemHandler}
-         moduleData={this.showModule}
-         hideModule={this.hideModule}
-         data={this.state.items} 
-         loadId={this.state.moduleId}/> : null}
         <Router>
           <Nav show={this.showShopingList}
           hideModule={this.hideModule} 
@@ -312,6 +305,14 @@ deteteItemHandler = (e) => {
             moduleData={this.showModule}
             getId={this.getId} />
             <Switch>
+            <Route path="/details">
+              <Module hide={this.hide}
+         buyItemHandler={this.buyItemHandler}
+         moduleData={this.showModule}
+         hideModule={this.hideModule}
+         data={this.state.items} 
+         loadId={this.state.moduleId} />
+            </Route>
               <Route exact path="/MPower">
                 <Domov hide={this.hide} />
               </Route>

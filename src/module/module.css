@@ -1,8 +1,5 @@
 .module-container{
-    position: absolute;
-    left: 0;
-    min-height: calc(100% - 450px);
-    width: calc(100% - 200px);
+    min-height: 100vh;
     background: #333333;
     z-index: 3;
     top: 100px;
@@ -126,6 +123,7 @@ cursor: default;
 /* BUTTON */
 .hide-module-btn{
     position: absolute;
+    padding: 0px 5px;
     right: 20px;
     top: 20px;
     font-size: 25px;
@@ -179,19 +177,20 @@ cursor: default;
 
 @media screen and (max-width: 500px){
     .module-container{
+        top: 0;
         padding: 0;
-        position: absolute;
         width: 100vw;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 80px 500px 1000px;
+        grid-template-rows: auto;
         height: auto;
     }
     .image{
-        width: 100%;
+        position: relative;
+        top: 0;
+        width: 95%;
     }
     .container-img-price{
-        margin-top: 50px;
         position: relative;
         width: 100%;
         height: auto;
@@ -201,7 +200,7 @@ cursor: default;
         left: 0;
         align-items: center;
         justify-content: center;
-        height: 100vh;
+        height: auto;
         grid-row: 2;
     }
     .container-img-price span{
@@ -219,6 +218,7 @@ cursor: default;
     color: white;
     font-family: 'Anton', sans-serif;
     font-size: 50px;
+    margin: 0;
     color: rgb(0, 153, 255);
     text-shadow: 0px 0px 2px black;
     cursor: default;
@@ -253,11 +253,10 @@ cursor: default;
         box-shadow: 0px 0px 5px black;
         text-align: center;
         grid-row: 1;
-        margin-top: 50px;
+        margin-top: 100px;
     }
     .popis{
         position: relative;
-        margin-top: 100px;
         z-index: 4;
         color: white;
         width: calc(100% - 20px);
@@ -273,6 +272,7 @@ cursor: default;
         text-shadow: 2px 2px 2px black;
         margin-bottom: 30px;
         text-decoration: underline;
+        text-align: center;
     }
     .pozadie{
         display: none;
