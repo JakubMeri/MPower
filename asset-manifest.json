@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/MPower/static/css/main.2464e4ad.chunk.css",
-    "main.js": "/MPower/static/js/main.8946f4a5.chunk.js",
-    "main.js.map": "/MPower/static/js/main.8946f4a5.chunk.js.map",
+    "main.css": "/MPower/static/css/main.4fe3b7de.chunk.css",
+    "main.js": "/MPower/static/js/main.fe865746.chunk.js",
+    "main.js.map": "/MPower/static/js/main.fe865746.chunk.js.map",
     "runtime-main.js": "/MPower/static/js/runtime-main.c89fe9bb.js",
     "runtime-main.js.map": "/MPower/static/js/runtime-main.c89fe9bb.js.map",
-    "static/js/2.8b95ea90.chunk.js": "/MPower/static/js/2.8b95ea90.chunk.js",
-    "static/js/2.8b95ea90.chunk.js.map": "/MPower/static/js/2.8b95ea90.chunk.js.map",
+    "static/js/2.33172431.chunk.js": "/MPower/static/js/2.33172431.chunk.js",
+    "static/js/2.33172431.chunk.js.map": "/MPower/static/js/2.33172431.chunk.js.map",
     "index.html": "/MPower/index.html",
-    "precache-manifest.702650cf5de548162c95dc77b0ab337f.js": "/MPower/precache-manifest.702650cf5de548162c95dc77b0ab337f.js",
+    "precache-manifest.dbf4df94dfe6c8a9d5924be0d9bad8c5.js": "/MPower/precache-manifest.dbf4df94dfe6c8a9d5924be0d9bad8c5.js",
     "service-worker.js": "/MPower/service-worker.js",
-    "static/css/main.2464e4ad.chunk.css.map": "/MPower/static/css/main.2464e4ad.chunk.css.map",
-    "static/js/2.8b95ea90.chunk.js.LICENSE.txt": "/MPower/static/js/2.8b95ea90.chunk.js.LICENSE.txt",
+    "static/css/main.4fe3b7de.chunk.css.map": "/MPower/static/css/main.4fe3b7de.chunk.css.map",
+    "static/js/2.33172431.chunk.js.LICENSE.txt": "/MPower/static/js/2.33172431.chunk.js.LICENSE.txt",
     "static/media/SectionStyle.css": "/MPower/static/media/open.11021a5d.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.c89fe9bb.js",
-    "static/js/2.8b95ea90.chunk.js",
-    "static/css/main.2464e4ad.chunk.css",
-    "static/js/main.8946f4a5.chunk.js"
+    "static/js/2.33172431.chunk.js",
+    "static/css/main.4fe3b7de.chunk.css",
+    "static/js/main.fe865746.chunk.js"
   ]
 }
