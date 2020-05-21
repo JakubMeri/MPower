@@ -109,3 +109,10 @@
     cursor: default !important;
     color: black !important;
 }
+@media screen and (max-width: 500px){
+    .shop-list-container{
+        width: 100%;
+        border: none;
+        height: 100vh;
+    }
+}

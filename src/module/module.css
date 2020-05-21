@@ -95,6 +95,7 @@ cursor: default;
 }
 .pozadie{
     position: absolute;
+    display: block;
     font-family: 'Anton', sans-serif;
     color: black;
     text-shadow: 0px 0px 3px black;
@@ -176,3 +177,104 @@ cursor: default;
     transform: scale(1.2);
 }
 
+@media screen and (max-width: 500px){
+    .module-container{
+        padding: 0;
+        position: absolute;
+        width: 100vw;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 80px 500px 1000px;
+        height: auto;
+    }
+    .image{
+        width: 100%;
+    }
+    .container-img-price{
+        margin-top: 50px;
+        position: relative;
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        left: 0;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        grid-row: 2;
+    }
+    .container-img-price span{
+        left: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        grid-row: 2;
+    }
+    .cena{
+    z-index: 4;
+    color: white;
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+    color: rgb(0, 153, 255);
+    text-shadow: 0px 0px 2px black;
+    cursor: default;
+    }
+    .buy-btn{
+        z-index: 4;
+        position: relative;
+        max-width: 90%;
+        height: 50px;
+        font-size: 20px;
+        padding: 0px 10px;
+        cursor: pointer;
+        color: #333333;
+        outline: none;
+        text-transform: uppercase;
+        font-weight: 900;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .buy-btn:hover{
+        color: black;
+    }
+    .nazov{
+        font-family: 'Anton', sans-serif;
+        height: 50px;
+        font-size: 40px;
+        text-transform: uppercase;
+        z-index: 4;
+        position: relative;
+        background: rgb(0, 153, 255);
+        box-shadow: 0px 0px 5px black;
+        text-align: center;
+        grid-row: 1;
+        margin-top: 50px;
+    }
+    .popis{
+        position: relative;
+        margin-top: 100px;
+        z-index: 4;
+        color: white;
+        width: calc(100% - 20px);
+        padding: 0px 10px;
+        line-height: 22px;
+        text-align: justify;
+        text-shadow: 1px 1px 1px black;
+        grid-row: 3;
+    }
+    .popis h1{
+        font-family: 'Anton', sans-serif;
+        letter-spacing: 1px;
+        text-shadow: 2px 2px 2px black;
+        margin-bottom: 30px;
+        text-decoration: underline;
+    }
+    .pozadie{
+        display: none;
+    }
+}

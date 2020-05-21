@@ -15,7 +15,7 @@ export default function Module(props) {
                     <img src={item.img} alt="" className="image"/>
                     <span>
                         <p className="cena">Cena: {item.cena}€</p>
-                        <button id={props.loadId} onClick={props.buyItemHandler} disabled={item.dostupne!==0 ? false : true} className={item.dostupne!==0 ? "buy-btn": "buy-btn disabled"}>{item.dostupne!==0 ? "Pridať do košíka": "VYPREDANÉ"}</button>;
+                        <button id={props.loadId} onClick={props.buyItemHandler} disabled={item.dostupne!==0 ? false : true} className={item.dostupne!==0 ? "buy-btn": "buy-btn disabled"}>{item.dostupne!==0 ? "Pridať do košíka": "VYPREDANÉ"}</button>
                     </span>
                 </div>
                     <p className="nazov">{item.name}</p>

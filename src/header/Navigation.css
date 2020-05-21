@@ -145,3 +145,52 @@ nav{
     display: none;
     opacity: 0;
 }
+.mobile-menu-toggle{
+    display: none;
+}
+@media screen and (max-width: 500px){
+    ::-webkit-scrollbar{
+        display: none !important;
+    }
+    .info{
+        margin-right: 60px;
+    }
+    .info a{
+        margin: 0px 3px;
+    }
+    .nav-link{
+        display: none;
+    }
+    .mobile-menu{
+        width: 100%;
+        position: absolute;
+        top: 100px;
+        height: auto;
+        background: #333;
+        font-family: "Anton", sans-serif;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+        z-index: 10;
+        padding: 10px 0px;
+
+    }
+    .mobile-menu a{
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+    }
+    .mobile-menu-toggle{
+        display: block;
+        margin-left: 20px;
+        color: white;
+        border: none;
+        background: transparent;
+        font-size: 30px;
+        outline: none;
+    }
+}

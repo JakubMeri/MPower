@@ -38,3 +38,16 @@
     background: #333333;
     color: white !important;
 }
+@media screen and (max-width: 500px){
+    .pagination{
+        position: relative;
+        width: 100%;
+        align-self: center;
+    }
+    .pagination-list{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+}

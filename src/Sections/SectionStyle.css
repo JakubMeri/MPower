@@ -6,10 +6,13 @@
 .kosik-suhrn{
     min-height: 100vh;
     width: 100vw;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1.5fr 0.5fr;
+    grid-template-rows: auto;
     align-items: center;
     flex-direction: column;
     position: relative;
+    width: calc(100vw - 5px);
 }
 .kosik-suhrn h1{
     font-family: "Anton", sans-serif;
@@ -18,12 +21,63 @@
     left: 40px;
 }
 .buy-container{
+    margin-right: 0;
+    padding: 0;
     margin-top: 100px;
     display: flex;
     align-items: center;
     flex-direction: column;
     width: 100%;
     margin-bottom: 100px;
+    height: 80vh;
+    overflow-y: scroll;
+}
+::-webkit-scrollbar{
+    width: 5px;
+    display: block;
+    background: #333;
+    border: solid 1px black;
+}
+::-webkit-scrollbar-thumb{
+    background: rgb(0, 193, 241);
+}
+.buy-container h2{
+    font-family: "Anton", sans-serif;
+    border: solid 3px black;
+    font-size: 40px;
+    padding: 0px 10px;
+    align-self: center;
+    background: #333;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    letter-spacing: 1px;
+    pointer-events: none;
+    text-transform: uppercase;
+}
+.cennik-tabulka{
+    font-family: "Anton", sans-serif;
+    font-size: 25px;
+    margin-top: 100px;
+    width: 90%;
+    border: solid 2px black;
+    border-collapse: collapse;
+    text-align: center;
+}
+.cennik-tabulka tr, td{
+    border: solid 2px rgb(0, 193, 241);
+    padding: 5px;
+    background: #333;
+    text-shadow: 1px 1px 1px black;
+    color: white;
+}
+.produkty{
+height: 100vh;
+}
+.cennik{
+display: flex;
+align-items: center;
+flex-direction: column;
+height: 100vh;
 }
 .container{
     min-height: 100vh;
@@ -121,4 +175,37 @@
     width: 100%;
     background: rgba(0,0,0,.4);
     z-index: 1;
+}
+
+/*ERROR PAGE*/
+.error{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+.error h1{
+    font-size: 80px;
+    padding: 0px 10px;
+    background: #333;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+    letter-spacing: 1px;
+}
+@media screen and (max-width: 500px){
+    .container{
+        padding: 0;
+    }
+    .nadpis{
+        position: relative !important;
+        top: 0;
+        left: 0;
+        padding: 0 !important;
+        grid-row: 2;
+        width: auto;
+        text-align: center;
+        margin: 0;
+    }
 }

@@ -10,6 +10,7 @@ import Doplnky from './Sections/Doplnky.js'
 import Kosik from './Sections/KosikSuhrn.js'
 import ShoppingList from './shoppingList/ShopingList.js'
 import Module from './module/Module.js'
+import Error from './Sections/Error'
 
 export class App extends Component {
   state = {
@@ -165,6 +166,15 @@ export class App extends Component {
         gender: 'zena',
         cena: 25,
         dostupne: 5,
+        popis: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt esse beatae, autem veritatis molestias aperiam impedit in ab magnam quidem odit, culpa quae fugit sed laudantium. Ipsa nostrum sequi nihil doloribus minima eligendi est incidunt doloremque in, eum omnis libero nulla architecto illo laudantium porro? Eaque illo reprehenderit magnam similique quibusdam nesciunt, a cum laudantium eveniet quis molestias quidem sed commodi, eligendi odit praesentium, aliquid amet excepturi accusantium quasi? Beatae cum velit tenetur ipsam dolore quo optio voluptates, dolores sit architecto rem sunt tempore repellendus et, repellat quibusdam quia autem exercitationem amet ipsum asperiores commodi inventore earum harum. Quis dicta possimus cupiditate qui rem iure maiores provident ut debitis iste mollitia, nulla illo placeat sed accusamus, similique aspernatur alias id aliquid vero at! Vel facere quia doloribus numquam id! Earum explicabo repellendus architecto. Iusto saepe facere quae dolorem, deserunt est delectus hic, labore, amet facilis quibusdam ab illo dolor. Non deleniti atque odit facilis eveniet laudantium ea odio impedit esse ut corporis, nam hic doloribus consequatur accusantium alias beatae? Ducimus aut vitae officiis, dolorum molestiae omnis harum repellendus distinctio nihil, rerum tenetur perferendis ipsam iste nostrum eaque dignissimos sed odio praesentium dicta libero perspiciatis architecto. Similique aliquam beatae commodi recusandae?"
+      },
+      {
+        id: 18,
+        img: "https://images.pexels.com/photos/906056/pexels-photo-906056.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        name: "Retiazka",
+        gender: 'doplnok',
+        cena: 25,
+        dostupne: 8,
         popis: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt esse beatae, autem veritatis molestias aperiam impedit in ab magnam quidem odit, culpa quae fugit sed laudantium. Ipsa nostrum sequi nihil doloribus minima eligendi est incidunt doloremque in, eum omnis libero nulla architecto illo laudantium porro? Eaque illo reprehenderit magnam similique quibusdam nesciunt, a cum laudantium eveniet quis molestias quidem sed commodi, eligendi odit praesentium, aliquid amet excepturi accusantium quasi? Beatae cum velit tenetur ipsam dolore quo optio voluptates, dolores sit architecto rem sunt tempore repellendus et, repellat quibusdam quia autem exercitationem amet ipsum asperiores commodi inventore earum harum. Quis dicta possimus cupiditate qui rem iure maiores provident ut debitis iste mollitia, nulla illo placeat sed accusamus, similique aspernatur alias id aliquid vero at! Vel facere quia doloribus numquam id! Earum explicabo repellendus architecto. Iusto saepe facere quae dolorem, deserunt est delectus hic, labore, amet facilis quibusdam ab illo dolor. Non deleniti atque odit facilis eveniet laudantium ea odio impedit esse ut corporis, nam hic doloribus consequatur accusantium alias beatae? Ducimus aut vitae officiis, dolorum molestiae omnis harum repellendus distinctio nihil, rerum tenetur perferendis ipsam iste nostrum eaque dignissimos sed odio praesentium dicta libero perspiciatis architecto. Similique aliquam beatae commodi recusandae?"
       }
     ],
@@ -332,13 +342,16 @@ deteteItemHandler = (e) => {
                 hide={this.hide}/>
               </Route>
               <Route path="/Doplnky">
-                <Doplnky module={this.showModule} 
+                <Doplnky 
+                getId={this.getId} 
+                module={this.showModule} 
                 zoradenie={this.orderProductsHandler} 
-                info={this.sortProduct()} 
+                info={this.sortProduct("doplnok")} 
                 priceFilterValue={this.state.priceFilter} 
                 priceFilter={this.pricefilter}  
                 hide={this.hide}/>
               </Route>
+              <Route component={Error}/>
             </Switch>
           <Footer />
         </Router>

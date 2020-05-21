@@ -25,6 +25,15 @@ width: 91%;
     font-family: "Anton", sans-serif;
     font-size: 20px;
     color: white;
+    text-shadow: 1px 1px 1px black;
+}
+.cena-produktu{
+    font-family: "Anton", sans-serif;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    right: 100px;
+    text-shadow: 1px 1px 1px black;
 }
 .remove-btn-buy{
     position: absolute;
@@ -40,10 +49,8 @@ width: 91%;
     color: #333;
 }
 .zakupit{
-    position: absolute;
-    right: 5%;
-    bottom: 50px;
-    width: 200px;
+    margin-top: 50px;
+    width: 90%;
     height: 50px;
     font-size: 30px;
     text-transform: uppercase;
@@ -55,4 +62,5 @@ width: 91%;
 }
 .zakupit:hover{
     box-shadow: inset 0px 0px 5px #333;
+    border: solid 2px #333;
 }
