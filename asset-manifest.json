@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/MPower/static/css/main.4fe3b7de.chunk.css",
-    "main.js": "/MPower/static/js/main.fe865746.chunk.js",
-    "main.js.map": "/MPower/static/js/main.fe865746.chunk.js.map",
+    "main.js": "/MPower/static/js/main.51895cff.chunk.js",
+    "main.js.map": "/MPower/static/js/main.51895cff.chunk.js.map",
     "runtime-main.js": "/MPower/static/js/runtime-main.c89fe9bb.js",
     "runtime-main.js.map": "/MPower/static/js/runtime-main.c89fe9bb.js.map",
     "static/js/2.33172431.chunk.js": "/MPower/static/js/2.33172431.chunk.js",
     "static/js/2.33172431.chunk.js.map": "/MPower/static/js/2.33172431.chunk.js.map",
     "index.html": "/MPower/index.html",
-    "precache-manifest.dbf4df94dfe6c8a9d5924be0d9bad8c5.js": "/MPower/precache-manifest.dbf4df94dfe6c8a9d5924be0d9bad8c5.js",
+    "precache-manifest.d7b0863a9f30416016a55797bea07606.js": "/MPower/precache-manifest.d7b0863a9f30416016a55797bea07606.js",
     "service-worker.js": "/MPower/service-worker.js",
     "static/css/main.4fe3b7de.chunk.css.map": "/MPower/static/css/main.4fe3b7de.chunk.css.map",
     "static/js/2.33172431.chunk.js.LICENSE.txt": "/MPower/static/js/2.33172431.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.c89fe9bb.js",
     "static/js/2.33172431.chunk.js",
     "static/css/main.4fe3b7de.chunk.css",
-    "static/js/main.fe865746.chunk.js"
+    "static/js/main.51895cff.chunk.js"
   ]
 }
