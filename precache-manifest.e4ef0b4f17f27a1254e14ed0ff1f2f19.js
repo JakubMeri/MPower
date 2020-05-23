@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c73aec99879a662c42ec83e1a8e921e1",
+    "revision": "baa864f07a6132b39836ce279919b3f8",
     "url": "/MPower/index.html"
   },
   {
-    "revision": "e00516cea585ffb52e6b",
-    "url": "/MPower/static/css/main.4fe3b7de.chunk.css"
+    "revision": "29cf581fb37675ad5404",
+    "url": "/MPower/static/css/main.935d3981.chunk.css"
   },
   {
     "revision": "04322eb7e588b222a2ad",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MPower/static/js/2.33172431.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e00516cea585ffb52e6b",
-    "url": "/MPower/static/js/main.51895cff.chunk.js"
+    "revision": "29cf581fb37675ad5404",
+    "url": "/MPower/static/js/main.1e24b488.chunk.js"
   },
   {
     "revision": "d8ea9daf499f0cd244fb",
