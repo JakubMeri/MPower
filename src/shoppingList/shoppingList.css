@@ -44,10 +44,12 @@
     box-shadow: inset 0px 0px 5px black;
     transition: .1s;
 }
-.shop-list-container ul li p{
+.link-text{
     cursor: pointer;
+    color: white;
+    text-decoration: none;
 }
-.shop-list-container ul li p:hover{
+.link-text:hover{
     text-decoration: underline;
 }
 .shop-list-container ul li:hover{
