@@ -199,7 +199,7 @@ height: 100vh;
     letter-spacing: 1px;
 }
 .ziadneData{
-    position: "absolute";
+    position: absolute;
     top: 40%;
     left: 50%;
     background: #333;
